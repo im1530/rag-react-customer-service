@@ -1,0 +1,5 @@
+# 聊天对话模型
+chat_model_name : "qwen-max"
+
+# 文本嵌入模型
+text_embedding_model_name : "text-embedding-v4"

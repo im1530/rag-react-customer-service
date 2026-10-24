@@ -1,0 +1,8 @@
+# 主客服系统提示词路径
+main_prompt_path : prompts/main_prompt.txt
+
+# RAG总结系统提示词路径
+rag_summarize_prompt_path : prompts/rag_summarize_prompt.txt
+
+# 报表生成系统提示词路径
+report_prompt_path : prompts/report_prompt.txt

@@ -1,0 +1,18 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 向量库与日志（体积大、可重新生成，不传）
+chroma_db/
+logs/
+
+# MD5 登记簿（运行时生成）
+md5.txt
+
+# 系统/编辑器
+.PyCharm/
+.idea/

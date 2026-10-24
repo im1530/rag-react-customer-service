@@ -1,0 +1,26 @@
+# 向量库集合名（相当于一张表的名字)
+collection_name: agent
+
+# 向量库本地存储目录
+persist_directory: chroma_db
+
+# 每块文本的大小
+chunk_size: 200
+
+# 每块文本之间的重叠部分
+chunk_overlap: 20
+
+# 分隔符
+separators: ["\n\n", "\n", ".", "!", "?", "。", "！", "？", " ", ""]
+
+# 相似度阈值
+similarity_k: 3
+
+# MD5 登记簿文件：每行存一个已成功入库文件的内容 MD5，用于去重
+md5_hex_store: md5.txt
+
+# 允许纳入知识库的文件后缀白名单
+allowed_knowledge_file_types: ['txt','pdf']
+
+# 知识库原始文档所在目录，load_document 会扫描这个文件夹下的文档
+data_path: data
